@@ -15,10 +15,6 @@ package com.hyukis.designpatterns.singleton;
  * 5. Bill Pugh Singleton Implementation
  * */
 
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.ObjectOutput;
-import java.io.ObjectOutputStream;
 import java.io.Serializable;
 
 public class SingletonInstance implements Serializable {
@@ -101,5 +97,10 @@ public class SingletonInstance implements Serializable {
 
   public static SingletonInstance getInstance() {
     return SingletonHelper.INSTANCE;
+  }
+
+  // countermeasure of Deserialization
+  protected Object readResolve() {
+    return getInstance();
   }
 }
