@@ -13,14 +13,17 @@ public class DesignPatternAspect {
 
   @Around("@annotation(com.hyukis.designpatterns.global.annotation.DesignPattern)")
   public Object getApplicationNameWithTimer(ProceedingJoinPoint joinPoint) throws Throwable {
-
-    log.info("{} is Started", joinPoint.getSignature().toShortString());
-
+    log.info("");
+    log.info("============================================================");
+    log.info("============= {} =============", joinPoint.getSignature().toShortString());
+    log.info("============================================================");
     long start = System.currentTimeMillis();
     Object proceed = joinPoint.proceed();
     long end = System.currentTimeMillis();
+    log.info("============================================================");
     log.info(joinPoint.getSignature().toShortString() + " end time : " + (end - start) + "ms");
-
+    log.info("============================================================");
+    log.info("");
     return proceed;
   }
 }

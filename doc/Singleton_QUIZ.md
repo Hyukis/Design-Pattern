@@ -1,6 +1,7 @@
 # 📝 Quiz
 
 ## 싱글톤 패턴 (Singleton Pattern)
+> 공통으로 사용되는 객체를 하나의 객체로 사용하기 위한 패턴이다.
 1. 자바에서 enum을 사용하지 않고, 구현할 수 있는 Singleton 방법은?
    1. Eager
    2. Lazy
