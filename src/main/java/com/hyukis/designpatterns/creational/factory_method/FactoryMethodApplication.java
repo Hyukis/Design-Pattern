@@ -1,6 +1,6 @@
-package com.hyukis.designpatterns.factory_method;
+package com.hyukis.designpatterns.creational.factory_method;
 
-import com.hyukis.designpatterns.global.annotation.DesignPattern;
+import com.hyukis.designpatterns.creational.global.annotation.DesignPattern;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;

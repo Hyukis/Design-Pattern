@@ -1,4 +1,4 @@
-package com.hyukis.designpatterns.global.annotation;
+package com.hyukis.designpatterns.creational.global.annotation;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;

@@ -1,4 +1,4 @@
-package com.hyukis.designpatterns.factory_method;
+package com.hyukis.designpatterns.creational.factory_method;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;

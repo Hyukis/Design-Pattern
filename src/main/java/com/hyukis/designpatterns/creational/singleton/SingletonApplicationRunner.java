@@ -1,6 +1,6 @@
-package com.hyukis.designpatterns.singleton;
+package com.hyukis.designpatterns.creational.singleton;
 
-import com.hyukis.designpatterns.global.annotation.DesignPattern;
+import com.hyukis.designpatterns.creational.global.annotation.DesignPattern;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.ObjectInput;

@@ -1,4 +1,4 @@
-package com.hyukis.designpatterns.factory_method.spring;
+package com.hyukis.designpatterns.creational.factory_method.spring;
 
 import java.util.Calendar;
 import java.util.Locale;

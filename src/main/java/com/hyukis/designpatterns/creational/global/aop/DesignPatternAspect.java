@@ -1,4 +1,4 @@
-package com.hyukis.designpatterns.global.aop;
+package com.hyukis.designpatterns.creational.global.aop;
 
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.ProceedingJoinPoint;
@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class DesignPatternAspect {
 
-  @Around("@annotation(com.hyukis.designpatterns.global.annotation.DesignPattern)")
+  @Around("@annotation(com.hyukis.designpatterns.creational.global.annotation.DesignPattern)")
   public Object getApplicationNameWithTimer(ProceedingJoinPoint joinPoint) throws Throwable {
     log.info("");
     log.info("============================================================");

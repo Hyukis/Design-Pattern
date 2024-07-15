@@ -1,4 +1,4 @@
-package com.hyukis.designpatterns.singleton;
+package com.hyukis.designpatterns.creational.singleton;
 
 /*
  * 1. Eager Initialization

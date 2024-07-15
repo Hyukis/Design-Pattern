@@ -1,4 +1,4 @@
-package com.hyukis.designpatterns.singleton.spring;
+package com.hyukis.designpatterns.creational.singleton.spring;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.ApplicationContext;

@@ -1,4 +1,4 @@
-package com.hyukis.designpatterns.singleton.spring;
+package com.hyukis.designpatterns.creational.singleton.spring;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

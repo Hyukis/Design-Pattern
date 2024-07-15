@@ -1,8 +1,8 @@
-package com.hyukis.designpatterns.factory_method.spring;
+package com.hyukis.designpatterns.creational.factory_method.spring;
 
-import com.hyukis.designpatterns.factory_method.LGgram;
-import com.hyukis.designpatterns.factory_method.Laptop;
-import com.hyukis.designpatterns.factory_method.Mac;
+import com.hyukis.designpatterns.creational.factory_method.LGgram;
+import com.hyukis.designpatterns.creational.factory_method.Laptop;
+import com.hyukis.designpatterns.creational.factory_method.Mac;
 
 public class SimpleFactory {
 
